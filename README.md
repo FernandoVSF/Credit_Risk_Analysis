@@ -25,51 +25,51 @@ The following outpits will be produced:
 We analysed different models, and below we present the balanced accuracy, precision and recall scores for each of them:
 
 ### Naive Random Oversampling
-  - Bal. Accuracy Rep.: 0.65
-  - Precision:          0.99
-  - Recall:             0.61
+  - Bal. Accuracy: 0.65
+  - Precision:     0.99
+  - Recall:        0.61
 
    ![naive](/naive.png)
   
 ### SMOTE
-  - Bal. Accuracy Rep.: 0.66
-  - Precision:          0.99
-  - Recall:             0.69
+  - Bal. Accuracy: 0.66
+  - Precision:     0.99
+  - Recall:        0.69
 
    ![smote](/smote.png)
 
 ### SMOTE Oversampling
-  - Bal. Accuracy Rep.: 0.66
-  - Precision:          0.99
-  - Recall:             0.69
+  - Bal. Accuracy: 0.66
+  - Precision:     0.99
+  - Recall:        0.69
 
    ![smote](/smote.png)
 
 ### Undersampling
-  - Bal. Accuracy Rep.: 0.58
-  - Precision:          0.99
-  - Recall:             0.58
+  - Bal. Accuracy: 0.58
+  - Precision:     0.99
+  - Recall:        0.58
 
    ![under](/under.png)
    
 ### Combination (Over and Under) Sampling
-  - Bal. Accuracy Rep.: 0.64
-  - Precision:          0.99
-  - Recall:             0.57
+  - Bal. Accuracy: 0.64
+  - Precision:     0.99
+  - Recall:        0.57
 
    ![combi](/combi.png)   
    
 ### Balanced Random Forest Classifier
-  - Bal. Accuracy Rep.: 0.79
-  - Precision:          0.99
-  - Recall:             0.87
+  - Bal. Accuracy: 0.79
+  - Precision:     0.99
+  - Recall:        0.87
 
    ![BRF](/BRF.png)   
 
 ### Easy Ensemble AdaBoost Classifier
-  - Bal. Accuracy Rep.: 0.93
-  - Precision:          0.99
-  - Recall:             0.94
+  - Bal. Accuracy: 0.93
+  - Precision:     0.99
+  - Recall:        0.94
 
    ![EEC](/EEC.png)   
   
@@ -78,3 +78,6 @@ We analysed different models, and below we present the balanced accuracy, precis
 Looking   at the results, we can conclude that there is in fact a positivity bias for reviews in the Vine program (47.06% against 31.69% non-Vine reviews).  A possible reason is the fact that unpaid reviewers tend to be more critic, while participants tend to be more constructive.
 
 One additional analysis that could be done with the dataset is using machine learnimg validate the rating against the written reviews, and get more insight from the these reviews.
+
+Model 
+NRO
