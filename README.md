@@ -28,6 +28,8 @@ We analysed different models, and below we present the balanced accuracy, precis
   - Bal. Accuracy Rep.: 0.65
   - Precision:          0.99
   - Recall:             0.61
+
+   ![naive](/naive.png)
   
 
 
