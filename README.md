@@ -20,9 +20,16 @@ The following outpits will be produced:
 ## Resources
 - Data Source: LoanStats_2019Q1.csv file
 - Software: Python, SKLearn, ImbLearn, Pandas, Numpy, Jupyter Notebook
-- 
+
 ## Results
-Analysing Video Games reviews in the US, we got the following results:
+We analysed different models, and below we present the balanced accuracy, precision and recall scores for each of them:
+
+- Naive Random Oversampling
+  - Bal. Accuracy Rep.: 0.65
+  - Precision:          0.99
+  - Recall:             0.61
+  
+
 
   - Total Qualified* Reviews:
     - Vine:     102
