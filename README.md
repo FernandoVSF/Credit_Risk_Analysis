@@ -31,42 +31,42 @@ We analysed different models, and below we present the balanced accuracy, precis
 
    ![naive](/naive.png)
   
-- SMOTE
+### SMOTE
   - Bal. Accuracy Rep.: 0.66
   - Precision:          0.99
   - Recall:             0.69
 
    ![smote](/smote.png)
 
-- SMOTE Oversampling
+### SMOTE Oversampling
   - Bal. Accuracy Rep.: 0.66
   - Precision:          0.99
   - Recall:             0.69
 
    ![smote](/smote.png)
 
-- Undersampling
+### Undersampling
   - Bal. Accuracy Rep.: 0.58
   - Precision:          0.99
   - Recall:             0.58
 
    ![under](/under.png)
    
-- Combination (Over and Under) Sampling
+### Combination (Over and Under) Sampling
   - Bal. Accuracy Rep.: 0.64
   - Precision:          0.99
   - Recall:             0.57
 
    ![combi](/combi.png)   
    
-- Balanced Random Forest Classifier
+### Balanced Random Forest Classifier
   - Bal. Accuracy Rep.: 0.79
   - Precision:          0.99
   - Recall:             0.87
 
    ![BRF](/BRF.png)   
 
-- Easy Ensemble AdaBoost Classifier
+### Easy Ensemble AdaBoost Classifier
   - Bal. Accuracy Rep.: 0.93
   - Precision:          0.99
   - Recall:             0.94
