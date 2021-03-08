@@ -64,14 +64,14 @@ We analysed different models, and below we present the balanced accuracy, precis
   - Precision:          0.99
   - Recall:             0.87
 
-   ![brf](/brf.png)   
+   ![BRF](/BRF.png)   
 
 - Easy Ensemble AdaBoost Classifier
   - Bal. Accuracy Rep.: 0.93
   - Precision:          0.99
   - Recall:             0.94
 
-   ![eec](/eec.png)   
+   ![EEC](/EEC.png)   
   
 ## Summary
 
