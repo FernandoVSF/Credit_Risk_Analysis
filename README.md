@@ -12,10 +12,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 The following outpits will be produced:
 
-  -Use Resampling Models to Predict Credit Risk
-  -Use the SMOTEENN Algorithm to Predict Credit Risk
-  -Use Ensemble Classifiers to Predict Credit Risk
-  -A Written Report on the Credit Risk Analysis (README.md)
+- Use Resampling Models to Predict Credit Risk
+- Use the SMOTEENN Algorithm to Predict Credit Risk
+- Use Ensemble Classifiers to Predict Credit Risk
+- A Written Report on the Credit Risk Analysis (README.md)
 
 ## Resources
 - Data Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz, AWS RBS
