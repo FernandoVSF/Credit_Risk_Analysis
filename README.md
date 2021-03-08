@@ -18,9 +18,9 @@ The following outpits will be produced:
 - A Written Report on the Credit Risk Analysis (README.md)
 
 ## Resources
-- Data Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz, AWS RBS
-- Software: PySpark, Pandas, PostgresSQL, pgAdmin4, Jupyter Notebook, VSCode
-
+- Data Source: LoanStats_2019Q1.csv file
+- Software: Python, SKLearn, ImbLearn, Pandas, Numpy, Jupyter Notebook
+- 
 ## Results
 Analysing Video Games reviews in the US, we got the following results:
 
