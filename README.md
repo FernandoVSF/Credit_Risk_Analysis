@@ -24,7 +24,7 @@ The following outpits will be produced:
 ## Results
 We analysed different models, and below we present the balanced accuracy, precision and recall scores for each of them:
 
-- Naive Random Oversampling
+### Naive Random Oversampling
   - Bal. Accuracy Rep.: 0.65
   - Precision:          0.99
   - Recall:             0.61
