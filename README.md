@@ -31,41 +31,47 @@ We analysed different models, and below we present the balanced accuracy, precis
 
    ![naive](/naive.png)
   
+- SMOTE
+  - Bal. Accuracy Rep.: 0.66
+  - Precision:          0.99
+  - Recall:             0.69
 
+   ![smote](/smote.png)
 
-  - Total Qualified* Reviews:
-    - Vine:     102
-    - non-Vine: 64,008
+- SMOTE Oversampling
+  - Bal. Accuracy Rep.: 0.66
+  - Precision:          0.99
+  - Recall:             0.69
 
-  - Total 5 Stars Qualified* Reviews:
-    - Vine:     48
-    - non-Vine: 20,282
+   ![smote](/smote.png)
 
-  - Percentage of 5 Stars / Total:
-    - Vine:     47.06%
-    - non-Vine: 31.69%
+- Undersampling
+  - Bal. Accuracy Rep.: 0.58
+  - Precision:          0.99
+  - Recall:             0.58
 
-  *Qualified is defined as having total votes equal to or greater than 20 and helpful votes over total votes equal to or greater than 50%, as shown in the Dataframes below"
-  
-  - Total Voters equal to or greater than 20
+   ![under](/under.png)
+   
+- Combination (Over and Under) Sampling
+  - Bal. Accuracy Rep.: 0.64
+  - Precision:          0.99
+  - Recall:             0.57
 
-   ![top_votes](/top_votes.png)
+   ![combi](/combi.png)   
+   
+- Balanced Random Forest Classifier
+  - Bal. Accuracy Rep.: 0.79
+  - Precision:          0.99
+  - Recall:             0.87
 
-  - Helpful votes over total votes equal to or greater than 50%
+   ![brf](/brf.png)   
 
-  ![helpful](/helpful.png)
-  
-  - Part of the Vine Program (paid)
+- Easy Ensemble AdaBoost Classifier
+  - Bal. Accuracy Rep.: 0.93
+  - Precision:          0.99
+  - Recall:             0.94
 
-  ![paid](/paid.png)
-  
-  - Not part of the Vine program (unpaid)
-
-  ![unpaid](/unpaid.png)
-  
-- Result Output
-
-![VG_reviews](/VG_reviews.png)
+   ![eec](/eec.png)   
   
 ## Summary
 
