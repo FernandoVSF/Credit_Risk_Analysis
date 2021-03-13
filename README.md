@@ -68,9 +68,7 @@ We analysed different models, and below we present the balanced accuracy, precis
   
 ## Summary
 
-Looking   at the results, we can conclude that there is in fact a positivity bias for reviews in the Vine program (47.06% against 31.69% non-Vine reviews).  A possible reason is the fact that unpaid reviewers tend to be more critic, while participants tend to be more constructive.
-
-One additional analysis that could be done with the dataset is using machine learnimg validate the rating against the written reviews, and get more insight from the these reviews.
+Please find below a summary table of all analysis:
 
 Model | Bal Accy | Precision | Recall
 --- | --- | --- | --
@@ -81,4 +79,5 @@ Combination | 0.64 | 0.99 | 0.57
 BRF | 0.79 | 0.99 | 0.87
 EEC | 0.93 | 0.99 | 0.94
 
-
+Looking at the results, we can conclude that we have high precision scores for all models, since 
+Easy Ensemble AdaBoost Classifier
