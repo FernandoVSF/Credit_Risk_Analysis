@@ -80,5 +80,6 @@ Looking   at the results, we can conclude that there is in fact a positivity bia
 One additional analysis that could be done with the dataset is using machine learnimg validate the rating against the written reviews, and get more insight from the these reviews.
 
 Model | M1 | M2
+--- | --- | ---
 NRO | 111 | 222
 BLA | 333 | 444
