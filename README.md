@@ -79,5 +79,8 @@ Combination | 0.64 | 0.99 | 0.57
 BRF | 0.79 | 0.99 | 0.87
 EEC | 0.93 | 0.99 | 0.94
 
-Looking at the results, we can conclude that we have high precision scores for all models, since 
-Easy Ensemble AdaBoost Classifier
+Looking at the results, we can conclude that we have high precision scores for all models, since given data assymetry, not many low risk are predicted as high risk.  However we can see a lot of difference in the models through the recall score, which shows the ability of finding all positive high risk samples.
+
+Therefore, we recommend using Easy Ensemble AdaBoost Classifier, since it ensemblse AdaBoost learners trained on different balanced boostrap samples, increasing the ability of finding positive high risk samples, providing the highest ballanced accuracy score.
+
+In the other hand we don't recommed for this exercise the use of undersampling, since it involves loss of data from the majority class, decreasing even more the recall rate, and therefore, the ballanced accuracy score.
