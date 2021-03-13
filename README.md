@@ -82,4 +82,4 @@ One additional analysis that could be done with the dataset is using machine lea
 Model | Bal Accy | Precision | Recall
 --- | --- | --- | --
 NRO | 0.65 | 0.99 |0.61
-BLA | 0.66 | 0.99 | 0,69
+SMOTE | 0.66 | 0.99 | 0,69
