@@ -77,3 +77,8 @@ Model | Bal Accy | Precision | Recall
 NRO | 0.65 | 0.99 |0.61
 SMOTE | 0.66 | 0.99 | 0,69
 Undersampling | 0.58 | 0.99 | 0.58
+Combination | 0.64 | 0.99 | 0.57
+BRF | 0.79 | 0.99 | 0.87
+EEC | 0.93 | 0.99 | 0.94
+
+
