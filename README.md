@@ -31,13 +31,6 @@ We analysed different models, and below we present the balanced accuracy, precis
 
    ![naive](/naive.png)
   
-### SMOTE
-  - Bal. Accuracy: 0.66
-  - Precision:     0.99
-  - Recall:        0.69
-
-   ![smote](/smote.png)
-
 ### SMOTE Oversampling
   - Bal. Accuracy: 0.66
   - Precision:     0.99
@@ -83,3 +76,4 @@ Model | Bal Accy | Precision | Recall
 --- | --- | --- | --
 NRO | 0.65 | 0.99 |0.61
 SMOTE | 0.66 | 0.99 | 0,69
+Undersampling | 0.58 | 0.99 | 0.58
